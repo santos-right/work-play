@@ -3,43 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
     <link rel="stylesheet" href="css/all.css">
-    <title>Register page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login page</title>
 </head>
 <body>
     <div class="row">
         <div class="col-6">
             <img src="images/Programming-pana.png" alt="Register Image">
         </div>
-        <div class="col-6 register">
-            <h3>register here</h3>
+        <div class="col-6 register login">
+            <h3>login here</h3>
             <form action="">
                 <div>
-                    <input type="text" class="first" name="" id="" placeholder="First name">
-                    <input type="text" class="last" name="" id="" placeholder="Last name">
+                    <input type="email" class="email login-email" name="" id="" placeholder="Email">
                 </div>
                 <div>
-                    <input type="email" class="email" name="" id="" placeholder="Email">
-                    <input type="password" class="password" name="" id="" placeholder="password">
+                    <input type="password" class="password login-password" name="" id="" placeholder="password">
                 </div>
                 <div>
-                    <input type="number" class="number" name="" id="" placeholder="Phone Number">
-                    <input type="text" class="address" name="" id="" placeholder="Address">
+                    <button>Login</button>
                 </div>
                 <div>
-                    <input type="date" class="date" name="" id="" placeholder="D.O.B">
-                    <input type="gender" class="gender" name="" id="" placeholder="Gender">
+                    <span>Don't have an account?</span>
+                    <a href="index.html" class="login-btn">Register <span>👉</span> </a>
                 </div>
-                <div>
-                    <button>Register</button>
-                </div>
-                <div>
-                    <span>Already have an account?</span>
-                    <a href="login.html" class="login">Login <span>👉</span> </a>
-                </div>
+                <div class="loader"></div>
             </form>
-            <div class="loader"></div>
         </div>
     </div>
     
@@ -61,6 +52,7 @@
             <a href="" class="created"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
+
 
     <script src="js/main.js"></script>
     

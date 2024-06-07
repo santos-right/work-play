@@ -6,11 +6,13 @@ body,* {
     scrollbar-width: none;
     line-height: 1.5;
 }
+
 img {
     margin-top: 0rem;
     width: 45rem;
     height: 41rem;
 }
+
 h3 {
     text-align: center;
     text-transform: uppercase;
@@ -18,44 +20,47 @@ h3 {
     font-size: 30px;
 }
 
-.register {
-    margin-top: 2rem;
+.login {
+    margin-top: 7rem;
 }
+
 form > div {
     margin-top: 3rem;
 }
+
 .row {
     display: flex;
 }
-.first,.last,.email,.password,.number,.address,.date,.gender {
+
+.login-email {
     color: black;
     background-color: ghostwhite;
     border-radius: 5rem;
     border: 2px solid #007bff;
-    width: 16rem;
+    width: 37rem;
     height: 1rem;
     padding: 10px;
     outline: none;
 }
-.first {
-    border-top-right-radius: 0rem;
-	border-bottom-right-radius: 0rem;
-	border-right: 2px solid #007bff;
-    margin-right: 0;
+
+.login-password {
+    color: black;
+    background-color: ghostwhite;
+    border-radius: 5rem;
+    border: 2px solid #007bff;
+    width: 37rem;
+    height: 1rem;
+    padding: 10px;
+    outline: none;
 }
-.last {
-    border-top-left-radius: 0rem;
-	border-bottom-left-radius: 0rem;
-	border-left: 2px solid #007bff;
-    margin-left: -5px;
-}
+
 button {
     color: #007bff;;
     background-color: transparent;
     border-radius: 5rem;
     border: 2px solid #007bff;
     height: 3rem;
-    width: 560px;
+    width: 39rem;
     padding: 0.5rem;
     cursor: pointer;
     font-weight: 900;
@@ -66,11 +71,13 @@ button:hover {
     background-color: #fff;
     border: 2px solid #007bff;
 }
+
 span {
     color: #007bff;
     font-family: cursive, Arial, Helvetica, sans-serif;
 }
-.login {
+
+.login-btn {
     text-decoration: none;
     color: #007bff;
     background-color: transparent;
@@ -82,16 +89,16 @@ span {
     transition: 2s;
     box-shadow: .5rem 0 .5rem #ffa60000;
 }
-.login:hover {
+.login-btn:hover {
     color: #007bff;
     background-color: #fff;
     border: 2px solid white;
     box-shadow: .5rem 0 .5rem #007bff;
 }
-.login > span {
+.login-btn > span {
     visibility: hidden;
 }
-.login:hover > span {
+.login-btn:hover > span {
     visibility: visible;
 }
 
@@ -162,7 +169,6 @@ footer {
 i {
     font-size: xx-large;
 }
-
 
 /* Loading Animation */
 .loader {
